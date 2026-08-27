@@ -817,6 +817,8 @@ main section:not(.hero) {
     padding-top: 108px;
   }
   .hero-copy {
+    min-height: calc(100svh - 108px);
+    min-height: calc(100dvh - 108px);
     padding: 42px 20px 44px;
   }
   .hero h1 {
